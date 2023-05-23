@@ -10,7 +10,7 @@ body {
                  height: 375px; 
                  box-shadow: 0 10px 20px black; 
                  color:white; 
-                 font-family: cursive; 
+                 font-family: impact; 
                  transition: all .5s ease; 
          }  
                  .canvas { 
@@ -26,7 +26,7 @@ body {
                          height: 50px; 
                          padding: 10px; 
                          font-weight: bolder; 
-                         font-family: cursive; 
+                         font-family: impact; 
                  } 
                  .category { 
                          line-height: .01; 
@@ -54,7 +54,7 @@ body {
                    
                  a { 
                          color: white; 
-                         font-family: cursive; 
+                         font-family: impact; 
                          text-decoration: none; 
                  } 
                  img { 
@@ -63,8 +63,8 @@ body {
                          filter: brightness(85%); 
                  } 
                  img:hover { 
-                         width:510px; 
-                         box-shadow: 0 0 20px black; 
+                         width:110px; 
+                         box-shadow: 0 0 1080px grey; 
                          filter: brightness(120%); 
                  } 
                  span { 
