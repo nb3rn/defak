@@ -30,7 +30,7 @@ body {
                  } 
                  .category { 
                          line-height: .01; 
-                         color: #3a3a3a; 
+                         color: transparent; 
                          font-weight: bold; 
                  } 
                  .range { 
