@@ -88,16 +88,6 @@ src="sound-onclick.js"></script>
       <span class="magic-text">SPORTS+</span>
     </span>
   </h2>
-
-<?php
-$ip =  $_SERVER['REMOTE_ADDR'];
-$ip_info = @json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));  
-
-if($ip_info && $ip_info->geoplugin_countryName != null){
-	echo 'City = '.$ip_info->geoplugin_city.'<br/>';
-}
-?>
-
 </section>
    			</td>
    		</tr>
