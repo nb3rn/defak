@@ -64,7 +64,7 @@ body {
                  } 
                  img:hover { 
                          width:110px; 
-                         box-shadow: 0 0 20px white; 
+                         box-shadow: 0 0 20px aqua; 
                          filter: brightness(120%); 
                  } 
                  span { 
