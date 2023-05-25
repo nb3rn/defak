@@ -9,7 +9,7 @@ body {
                  width: 1110px; 
                  height: 375px; 
                  box-shadow: 0 10px 20px black; 
-                 color:white; 
+                 color:blue; 
                  font-family: fantasy; 
                  transition: all .5s ease; 
          }  
