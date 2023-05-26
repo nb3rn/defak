@@ -1,3 +1,13 @@
+<?php
+function CheckIPAccess() {
+  //allowed IP. Change it to the IP addresses you want to allow to access your webpage
+
+  $allowedip = '192.168.0.162';
+  $ip = $_SERVER['REMOTE_ADDR'];
+  return ($ip == $allowedip);
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
